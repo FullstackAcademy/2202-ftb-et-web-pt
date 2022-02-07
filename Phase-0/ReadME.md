@@ -26,9 +26,11 @@
 ## Concepts Covered
 ### HTML 
 - Elements, Tags, Attributes
-- Common Tags => <h1>, <p>, <li>, <body>, <a>
+- Common Tags => ```html 
+<h1>, <p>, <li>, <body>, <a>
+```
 - block && inline elements
-- <div> && <span>
+- ```html<div> && <span>```
 - comments
 - attributes => id, src, href
 ### CSS 
