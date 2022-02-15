@@ -1,8 +1,8 @@
 # Phase 1 - Web Development Fundamentals 
 
-_high level of what that even means_ 
+_In this phase, we're focusing on the fundamentals of HTML, CSS and Javascript_
 
-_What we're building up to_
+_Our aim is build semantically sound, responsive webpages that can react to user input and maintain basic state_
 
 ## [Week 1](./week-1/) 
 ### Concepts
