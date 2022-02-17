@@ -1,28 +1,43 @@
 ## PreReading
 - Selectors 
 - Box Model
-- Backgrounds, Borders,
+- Backgrounds, Borders
 - Values and Units
 - Sizing Items
 
 ## Quick Review: Selectors
 
+## Business 
+1. First Graded Project is due the week of April 5.
+- Projects are to assess your progress and foundations 
+2. Supplementary Materials around the Class Concepts 
+
 ## Pair Programming 
-- Driver and Navigator 
+- Driver
+    - Shares Screen
+    - Writes Code
+    - Asks Clarifying Questions 
+- Navigator 
+    - Reads the Prompt 
+    - Describes the Approach 
+    - Spots Syntax Issues 
 
 # Demo
-- Chrome Dev Tools
-
 ## CSS 
 - source for properties
     - [Mozilla Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference)
     - [W3 Schools](https://www.w3schools.com/cssref/)
 - Box Model
-    - `margin`
-    - `padding`
-    - `border`
+    - Everything in CSS is a box 
+    - `margin` - space between this element and other elements 
+    - `padding` - Space between the Content and the border 
+    - `border` - Frame of Content, space between the padding and margin
 - Sizing Items in CSS
-    - px, em, rem, in, and vh units.
+    - px - measured in computer pixels
+    - em - Equal to the font size of the element their on
+    - rem - equal to the root font size 
+    - in - inches
+    - vh && vw - based on the size of the browser the user is looking at  
 - Backgrounds && Borders
     - `background-color`
     - `background-image`
@@ -35,5 +50,11 @@
 ```
 
 ### Project 
-- CSS Files created 
+- Create CSS Files  
 - CSS Files are connected to html 
+
+## Class Concepts for NEXT CLASS
+CSS Layout
+Normal Flow
+Floats
+Positioning
