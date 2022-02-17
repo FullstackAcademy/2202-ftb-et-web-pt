@@ -6,7 +6,7 @@ _Our aim is build semantically sound, responsive webpages that can react to user
 
 ## [Week 1](./week-1/) 
 ### Concepts
-- [HTML elements and attributes](./module-1/lecture.md)
+- [HTML elements and attributes](./week-1/module-1/lecture.md)
 - Semantic HTML `main`, `section`, `footer`, `header` 
 - [Box Model, Sizing, Backgrounds and Borders](./module-2/lecture.md)
 - [Flow, Floats and Positioning](./module-3/lecture.md) 
@@ -27,6 +27,7 @@ _Our aim is build semantically sound, responsive webpages that can react to user
 ## Week 5
 ### Concepts - JS Foundations: Objects and Scope 
 ### Project - Romance JS
+
 
 
 
