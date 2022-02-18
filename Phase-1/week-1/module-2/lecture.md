@@ -10,7 +10,8 @@
 ## Business 
 1. First Graded Project is due the week of April 5.
 - Projects are to assess your progress and foundations 
-2. Supplementary Materials around the Class Concepts 
+2. Phase 1 Outline 
+3. Documentation 
 
 ## Pair Programming 
 - Driver
