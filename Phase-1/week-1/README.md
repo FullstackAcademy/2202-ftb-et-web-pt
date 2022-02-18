@@ -6,7 +6,7 @@
 
 ### HTML 
 - [elements and attributes](./module-1/lecture.md)
-- Semantic elements 
+
 ### CSS
 - [Box Model, Sizing, Backgrounds and Borders](./module-2/lecture.md)
     - Box Model: `margin`, `padding`, `border`
