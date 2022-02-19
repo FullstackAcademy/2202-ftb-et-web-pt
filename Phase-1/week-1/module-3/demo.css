@@ -1,0 +1,28 @@
+.navbar {
+    border: 2px solid black;
+}
+
+.navbar .links a {
+    margin: 2px;
+    background-color: green;
+    color: white;
+}
+
+
+.content{
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+}
+
+.content img {
+    height: 200px;
+    /* float: left; */
+    /* position: static;
+    top: 10px; 
+    left: 10px; */
+}
+
+.clear-float {
+    /* clear:both; */
+}
