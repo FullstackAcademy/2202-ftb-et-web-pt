@@ -1,11 +1,30 @@
-<!-- Add an image to this webpage -->
-<!-- Size the image to the whole webpage, an inch and 500px -->
-<!-- Position it to the center of the page, left of the H1 -->
-<!-- Make the Images next to eachother with HTML -->
+<!-- Size the image to the 
+        half of the webpage, 
+        an inch 
+         500px
+         -->
+<!-- Position it to the center of the page -->
+<!-- Make the Images stack on eachother with HTML -->
+<head>
+        <style> 
+                img {
+                     height: 1in;
+                     width: 1in;
+                     display: block;
+                }
+                div {
+                     position: fixed;
+                     top: 50vh; 
+                     left: 50vw;
+                }
+        </style>
+</head>
 
 <body>
-        <h1> My Image </h1>
-        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/pdbM7xQxamNhAlaiBpfEwA/o.jpg"/> 
-        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/pA8yVPD6_sHdfcdQks1_fQ/o.jpg"/> 
+        <h1> My Dogs </h1>
+        <div>
+           <img src="https://s3-media0.fl.yelpcdn.com/bphoto/pdbM7xQxamNhAlaiBpfEwA/o.jpg"/> 
+           <img src="https://s3-media0.fl.yelpcdn.com/bphoto/pA8yVPD6_sHdfcdQks1_fQ/o.jpg"/> 
+        </div>
 </body>
-
+<!-- FOLLOW UP on calc and image size consideration -->
