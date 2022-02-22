@@ -1,15 +1,37 @@
 <html> 
     <head> 
         <style> 
-            /* #container{} */
+        /*  
+        flex
+        justify-content
+        flex-direction
+        align-items
+        align-self
+        flex-wrap
+        align-content 
+        flex-flow
+        
+        flex-grow
+        flex-basis
+        order
+        */
+        #container{
+            color: rgb(251, 251, 251);
+            height: 100vw;
+        }
+            #container div {
+            /* display: inline-block */
+             width: 100px;
+            }
             #red {
                 background-color: red;
             }
             #blue {
                 background-color: blue;
             }
-            #yellow {
-                background-color: yellow;
+            #green {
+                background-color: green;
+                align-self: flex-end;
             }
         </style>
     </head>
@@ -21,8 +43,17 @@
             <div id="blue"> 
                 blue
             </div>
-            <div id="yellow"> 
-                yellow
+            <div id="green"> 
+                green
+            </div>
+            <div id="red"> 
+                red
+            </div>
+            <div id="blue"> 
+                blue
+            </div>
+            <div id="green"> 
+                green
             </div>
         </div>
     </body>

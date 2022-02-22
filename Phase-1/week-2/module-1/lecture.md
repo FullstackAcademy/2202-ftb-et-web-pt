@@ -1,5 +1,20 @@
 # CSS Flexbox
 
+
+Concepts 
+```
+ flex
+  justify-content
+  align-items
+  flex-direction
+  order
+  align-self
+  flex-wrap
+  flex-flow
+  align-content
+```
+
+
 # PreReading 
 - Flexbox
   - `display: flex`, and the relationship between parent and child elements with regard to flexing.
@@ -39,6 +54,13 @@ You might see the `flex` shorthand. This is expecting flex grow, flex shrink, an
 ## Wrap
 
 Allows content to wrap to new line if it's full. We can use a shortcut called `flex-flow` that combines flex-direction with flex-wrap.
+
+## Align Content
+Aligns a flex container's lines within the flex container when there is extra space on the cross-axis.
+
+## Order 
+Flex items are displayed in the same order as they appear in the source document by default. 
+
 
 # Workshop 
 - [Flexbox Froggy](https://flexboxfroggy.com/)
