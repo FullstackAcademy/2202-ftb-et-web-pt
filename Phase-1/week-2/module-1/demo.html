@@ -1,0 +1,60 @@
+<html> 
+    <head> 
+        <style> 
+        /*  
+        flex
+        justify-content
+        flex-direction
+        align-items
+        align-self
+        flex-wrap
+        align-content 
+        flex-flow
+        
+        flex-grow
+        flex-basis
+        order
+        */
+        #container{
+            color: rgb(251, 251, 251);
+            height: 100vw;
+        }
+            #container div {
+            /* display: inline-block */
+             width: 100px;
+            }
+            #red {
+                background-color: red;
+            }
+            #blue {
+                background-color: blue;
+            }
+            #green {
+                background-color: green;
+                align-self: flex-end;
+            }
+        </style>
+    </head>
+    <body>  
+        <div id="container"> 
+            <div id="red"> 
+                red
+            </div>
+            <div id="blue"> 
+                blue
+            </div>
+            <div id="green"> 
+                green
+            </div>
+            <div id="red"> 
+                red
+            </div>
+            <div id="blue"> 
+                blue
+            </div>
+            <div id="green"> 
+                green
+            </div>
+        </div>
+    </body>
+</html>
