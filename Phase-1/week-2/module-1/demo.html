@@ -16,22 +16,30 @@
         order
         */
         #container{
+            border: 2px dotted black;
             color: rgb(251, 251, 251);
-            height: 100vw;
-        }
-            #container div {
-            /* display: inline-block */
-             width: 100px;
-            }
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 70vw;
+            align-content: space-between;
+          }
+          
             #red {
                 background-color: red;
             }
             #blue {
                 background-color: blue;
+                flex-shrink: 2;
+                flex-basis: 40px;
+                order: -1;
             }
             #green {
                 background-color: green;
-                align-self: flex-end;
+                /* align-self: flex-end; */
             }
         </style>
     </head>
@@ -46,7 +54,7 @@
             <div id="green"> 
                 green
             </div>
-            <div id="red"> 
+            <!-- <div id="red"> 
                 red
             </div>
             <div id="blue"> 
@@ -54,7 +62,7 @@
             </div>
             <div id="green"> 
                 green
-            </div>
+            </div> -->
         </div>
     </body>
 </html>
