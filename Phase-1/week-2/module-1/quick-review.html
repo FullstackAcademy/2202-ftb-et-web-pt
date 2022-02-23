@@ -2,11 +2,25 @@
     <head> 
         <style> 
             /* 
+            0. make all text white
             1. Give Container a black dotted border 
-            2. Make the Divs Wider and Taller 
+            2. Make the Divs  Taller 
             3. Make the Divs sit in the same line 
             4. Make the divs space apart the full width of the page 
             */
+            body {
+            }
+            #container {
+                color: white; 
+                border: 2px dotted black;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #container div{
+               height: 50px;
+               width: 100%;
+            }
 
             #red {
                 background-color: red;
@@ -31,5 +45,6 @@
                 green
             </div>
         </div>
+        <h1>Hello</h1>
     </body>
 </html>
