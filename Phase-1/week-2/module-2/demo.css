@@ -89,3 +89,36 @@ a {
   padding: 0;
   text-align: right;
 }
+
+/* 
+at 650px 
+1. smaller site header 
+2. replace the desktop nav mobile-nav
+3. Make the single-dog-cards take up the whole page
+*/
+@media screen and (max-width: 650px) {
+  .fluid-text {
+    font-size:  1rem;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+  }
+  .single-dog-card {
+    margin: .5rem;
+    flex-basis: 100%;
+  }
+}
+
+/* 
+at 300px
+1. make the single dog cards real small 
+*/
+
+@media screen and (max-width: 500px) {
+  main nav {
+    display: none;
+  }
+}
