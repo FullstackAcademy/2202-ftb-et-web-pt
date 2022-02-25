@@ -1,25 +1,33 @@
 <!-- Write Rule to change the color to pink under 500px -->
-<html> 
-    <head> 
-        <style> 
-            div {
-                background-color: blue;
-                height: 300px;
-                width: 300px
-            }   
-        </style>
-    </head>
-    <body>  
-        <div id="container"> 
-            <div> 
-                1
-            </div>
-            <div> 
-                2
-            </div>
-            <div> 
-                3
-            </div>
-        </div>
-    </body>
+<html>
+  <head>
+    <style>
+      #container div {
+        background-color: blue;
+        height: 300px;
+        width: 300px;
+        color: gold;
+      }
+
+      /* tell a device to listen to a certain size
+        once it is that size, apply these rules 
+      */
+      @media screen and (max-width: 500px){
+        #container div {
+          background-color: pink;
+        }
+
+        body {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        Block
+      </div>
+    </div>
+  </body>
 </html>
