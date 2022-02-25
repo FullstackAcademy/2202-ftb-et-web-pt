@@ -6,13 +6,27 @@
         background-color: blue;
         height: 300px;
         width: 300px;
+        color: gold;
+      }
+
+      /* tell a device to listen to a certain size
+        once it is that size, apply these rules 
+      */
+      @media screen and (max-width: 500px){
+        #container div {
+          background-color: pink;
+        }
+
+        body {
+          background-color: green;
+        }
       }
     </style>
   </head>
   <body>
     <div id="container">
       <div>
-        <span></span>
+        Block
       </div>
     </div>
   </body>
