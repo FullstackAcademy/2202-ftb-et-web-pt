@@ -1,0 +1,46 @@
+#doggy-table {
+    /* display: flex;
+    flex-wrap: wrap; */
+    border: 1px solid blue;
+    width: 100px;
+}
+
+#doggy-table div, #doggy-table h1 {
+    border: 1px solid blue;
+    margin: 2px;
+    margin-bottom: 15px;
+    width: 50vw;
+    background-color: cornflowerblue;    
+}
+#doggy-table div:last-of-type {
+    margin-bottom: 0px;
+}
+
+/* #doggy-table h1 {
+    border: 3px solid red;
+}
+
+#doggy-table div:nth-of-type(odd):not(:last-of-type){
+    background-color: pink;
+} */
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+
+/* Sticky Footer */
+footer {
+    /* border: 3px solid saddlebrown;
+    position: fixed;
+    bottom:0;
+    width: 100vw; */
+    width: 100%;
+    background-color: aqua;
+}
+/* Cross vs Main Axis */
