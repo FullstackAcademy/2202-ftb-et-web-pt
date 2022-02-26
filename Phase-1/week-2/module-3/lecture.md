@@ -1,4 +1,4 @@
-# Media Queries 
+# Pseudo Class
 
 # PreReading
 - [Pseudo-Diner](https://flukeout.github.io/)
@@ -7,12 +7,9 @@
   - `:first-of-type`, `:last-of-type`, and `:nth-of-type`
   - `:not`
 
-# Quick Review: Set up a media query
-```css
-.container:first-child {
-  border: 5px solid blue;
-}
-```
+# Quick Review: 
+- [Pseudo-Diner](https://flukeout.github.io/)
+  - begin at 15
 
 # Demo 
 |Selector    |Example      |Description   |
@@ -28,6 +25,24 @@
 ## First or Last of Type
 
 - Grab the first or last of a specific type (in our case the "type" was a p tag) and style it. Does not matter if different types show up in the list before them.
+```css
+ /* Selects first element of this type */
+  .card:first-of-type {
+    color: lime;
+}
+ /* Selects first element of this type */
+  .card:last-of-type {
+    color: blue;
+ }
+  .card:nth-of-type(even) {
+    color: blue;
+ }
+
+ .card:not(:first-of-type){
+   background-color: blue;
+   margin-left: 1px;
+ }
+```
 
 ## First Child or Last Child
 - Grab the first or last child. This does look at what is actually first, so if another type shows up first/last, it will not work.
@@ -39,10 +54,21 @@
 3n... 3(0) = 0, 3(1) = 3, 3(2) = 6, 3(3) = 9, out of children.
 
 - Formula (A(n) + B): A as skipping/striding and B is our offset. In our case...
+  3n+1... 3(0) + 1 = 1, 3(1) + 1 = 4, 3(2) + 1 = 7, 3(3) + 1 = 10
+```css
+ /* Selects every fourth element
+   among any group of siblings */
+:nth-child(4n) {
+  color: lime;
+}
+```
 
-3n+1... 3(0) + 1 = 1, 3(1) + 1 = 4, 3(2) + 1 = 7, 3(3) + 1 = 10
 
 - Odd/Even: grab all odds or all evens
+```css
+ tr:nth-child(even) {background: #CCC}
+ tr:nth-child(odd) {background: #FFF}
+```
 
 - Ranges: In our case we want 3 - 6. Let's start with 3+. (0 + 3) = 3, (1 + 3) = 4, ... ,(6 + 3) = 9. Let's continue with 6-. (0 + 6) = 6, (-1 + 6) = 5, (-2 + 6) = 4, ... , (-5 + 6) = 1. We want to style only the elements that match BOTH so we use the selectors together: 
 ```
