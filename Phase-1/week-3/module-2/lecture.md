@@ -17,7 +17,6 @@ Go through the thought process of that you would ask yourself to justify wether 
 
 ## Lecture Notes
 
-
 ### Control Flow
 - Decisions  
   - We make decisions based on conditions all the time. 
