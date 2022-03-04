@@ -2,7 +2,7 @@
 
 ## Quick Review: 
 Let say you're hungry and you have two paths: Don't order takeway or order takeway. 
-Go through the thought process of that you would ask yourself to justify wether you should get takeout or not. 
+In your head, go through the thought process of that you would ask yourself to justify wether you should get takeout or not. 
 *Consider* - Did you eat recently? is there any food in the house? do you want to eat the food in the house? is it time to eat? Do I want to spend the money?
 
 ### Daily - Key Topics
