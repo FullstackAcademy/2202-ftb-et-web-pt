@@ -83,8 +83,39 @@ for (let i = webDev.length - 1; i >= 0 ; i = i - 1) {
 }
 
 
+
 /**
  * Exercise 2: Write a function that takes in string and returns  
- * that string with a 2 after every letter 
+ * that string with a TWO after every letter 
+ * dog => dTWOoTWOgTWO
  */
+function add2(input){ //dog 
+  //Accumulate => gather new stuff and make it into 1
+  //SUM 0 => 1, 4, 5 => 10
+  //String "" => "a" "b" "c" => "abc"
+  let result = ""; 
+
+  //iterate through string or range of number
+  for (let i = 0; i < input.length; i++){  //o
+    //isolate / get each individual letter or number or piece of data
+    let currentLetter = input[i]; //o
+    
+    //change that piece of data in some way 
+
+    //add to the accumulate
+    result = result + (currentLetter + "TWO") // "dTWO" + (o + TWO)
+  }
+  return result;
+}
+
+function onlyOdds(num){  //3
+  let sum = 0; 
+  //all of the numbers between 1 and num 
+  for (let i = 1; i <= num; i++){
+    let currentNum = i; // 1 , 2 , 3
+    sum = sum + currentNum; 
+  }
+  return sum; 
+}
+
 
