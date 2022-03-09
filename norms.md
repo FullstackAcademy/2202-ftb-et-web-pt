@@ -21,3 +21,6 @@
 
 ## Expectations for Instructor and Instructional Associate
 - Answer all questions to the best of our abilities, follow-up if we are unsure
+
+
+
