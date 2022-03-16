@@ -2,7 +2,6 @@
 const daysInYear = 365; 
 const daysInWeek = 7
 
-
 //locally scoped
 function dayChecker(){
     let currentDay = "Tuesday";
@@ -14,9 +13,10 @@ function badDayChecker(){
 }
 
 function outerChecker(daysInYear){
-    function innerChecker(daysInWeek){
+    function innerChecker(daysInWeek){ //5
         console.log(daysInWeek, daysInYear)
     }
+    innerChecker(5)
 }
 
 function blockChecker(){
@@ -27,3 +27,18 @@ function blockChecker(){
         console.log(secretPhrase);
     }
 }
+
+// closure 
+function daysFunctionCreator(daysInYear){
+    function innerChecker(daysInWeek){ //5
+        console.log(daysInWeek, daysInYear)
+    }
+    return innerChecker;
+    // Look up js closure explained
+}
+
+let myInnerChecker = daysFunctionCreator(200);
+myInnerChecker(1);
+
+
+
