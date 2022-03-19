@@ -1,0 +1,18 @@
+#container{ 
+    border: 1px solid black;
+    display: flex;
+    padding: 1px;
+    flex-direction: column;
+}
+
+#container p {
+    flex-basis: 100px;
+    background-color: blue;
+    color: white;
+    margin: 1rem;
+    align-items: stretch;
+}
+
+.boxShadow {
+    box-shadow: 3px 3px 3px black;
+}
