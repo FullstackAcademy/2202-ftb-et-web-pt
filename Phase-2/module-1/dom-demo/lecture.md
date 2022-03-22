@@ -32,5 +32,8 @@
 - element.classList = classList is HTML5 way to modify which classes are on a Node
 
 ## Data attribute 
-
-
+An attribute prepended with data. Data can be stored on HTML using
+data-${key}=value 
+```html 
+    <h1 data-testNumber="1"> Hello </h1>
+```
