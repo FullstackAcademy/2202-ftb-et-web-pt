@@ -38,7 +38,19 @@ function daysFunctionCreator(daysInYear){
 }
 
 let myInnerChecker = daysFunctionCreator(200);
-myInnerChecker(1);
+// myInnerChecker(1);
+
+
+let testObj = {
+    name: "Brendan",
+    toot: {
+        test: function(){
+            console.log(this);
+        }
+    }
+}
+
+testObj.toot.test();
 
 
 
