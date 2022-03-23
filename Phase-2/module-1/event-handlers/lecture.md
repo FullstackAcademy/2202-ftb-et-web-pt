@@ -30,7 +30,3 @@ element.addEventListener('click', function(){
 - From the intended target, the event bubbles up back up to the root of the document
 - If there is a matching event listener along the way, it is triggered
 
-
-
-## Event Propogation 
-
