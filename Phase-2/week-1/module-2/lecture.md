@@ -8,7 +8,7 @@ cat,
 
 
 ## Render Functions 
-
+ - Build Component 
 
 Terminology 
 - State 
