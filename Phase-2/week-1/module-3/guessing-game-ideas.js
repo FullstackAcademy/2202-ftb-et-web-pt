@@ -29,10 +29,3 @@ let state = {
  //what needs to update/change in state 
  //RENDERING 
  //State Functions 
-
-/*
- Leo => MAC OS ssh key
- Hunter => Ubuntu ssh keys
- Adam => Individual Setup; 
- Jeremy => github issues git clone 
-*/
