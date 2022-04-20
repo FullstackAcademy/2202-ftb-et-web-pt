@@ -11,11 +11,14 @@ _In JS, Functions can be passed into and returned from functions the same as any
        callback()
        console.log("Current value of Count is ", count)
    }
+  affectCount(addTo)
+
 ```
 
 ## Function Factories - Using Functions to Create Functions 
 ```js
     function createNumberAdder(determiner){
+         
         if (determiner){
             /*
                 This is anonymous function. 
