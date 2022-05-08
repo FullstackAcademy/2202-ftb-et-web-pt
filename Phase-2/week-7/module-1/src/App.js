@@ -25,8 +25,7 @@ function App() {
         </Link>
       </header>
       <div>
-        <Switch>
-
+        <switch>
           <Route path="/dog">
             <h2> Most usefully for Homepages</h2>
           </Route>
@@ -42,7 +41,7 @@ function App() {
              path="/dog/:puppyId/:breed"
             render={(routeProps) => <Dog {...routeProps} />}
           />
-        </Switch>
+        </switch>
       </div>
     </div>
   );
