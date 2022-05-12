@@ -2,7 +2,10 @@ import React, { useState } from "react";
 import Login from "./Login/Login";
 
 export default () => {
-  const [token, setToken] = useState("a");
+  const tokenFromStorage = localStorage.getItem("jwt")
+  const [token, setToken] = useState(tokenFromStorage);
+
+
   return (
     <div>
       {token ? 

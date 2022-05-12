@@ -1,5 +1,6 @@
    
 import React, { useState } from "react";
+import loginFunc from '../api/login';
 
 const Login = ({ setToken }) => {
   //form state
@@ -9,8 +10,10 @@ const Login = ({ setToken }) => {
   return (
     <form
       onSubmit={(e) => {
+        
         e.preventDefault();
-        console.log("Implement Login")        
+        loginFunc(userName, password, setToken); 
+
       }}
     >
       <div className="mb-3">
@@ -39,7 +42,7 @@ const Login = ({ setToken }) => {
           placeholder=""
         />
       </div>
-      
+      <button type="submit"> Login </button>
     </form>
   );
 };
