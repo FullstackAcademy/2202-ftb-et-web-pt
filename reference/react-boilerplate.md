@@ -24,6 +24,7 @@ With React, we avoid writing our application's HTML structure directly in the ro
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <script src="/bundle.js"></script>
 </head>
 <body>
   <div id="app"></div>
