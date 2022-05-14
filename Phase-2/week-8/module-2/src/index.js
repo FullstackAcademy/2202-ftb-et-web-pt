@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 
-console.log(process.env);
+console.dir(process.env);
 
 ReactDOM.render(
   <Router>
