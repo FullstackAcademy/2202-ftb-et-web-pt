@@ -13,18 +13,20 @@
 // server.listen(3000, 'localhost');
 
 const express = require('express');
-const app = express();
+//server Object
+const serverObj = express();
 
-app.get('/posts', (req, res) => {
-    console.log(req.path);
-    res.send(`<h1> Root </h1>`)
+// when I get a get request at localhost:8080/ ==> <h1> Root
+serverObj.get('/helloClass', (req, res) => {
+    console.log(req);
+    res.send(`<h1> Hello Class </h1>`)
 })
 
-app.get('/user/me', (req, res) => {
+serverObj.get('/user/me', (req, res) => {
     console.log(req.path);
-    res.send(`<h1> Test </h1>`)
+    res.send(`<h1> This is Me </h1>`)
 })
 
-app.listen(8080, () => {
+serverObj.listen(8080, () => {
     console.log("App has begun Listening")
 })
