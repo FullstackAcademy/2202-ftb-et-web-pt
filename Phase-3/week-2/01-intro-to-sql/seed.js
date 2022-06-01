@@ -1,4 +1,4 @@
-const { db } = require("./db");
+const { db } = require("../02-sql-join-updates/db");
 
 const dropTables = async () =>
   db.query(`

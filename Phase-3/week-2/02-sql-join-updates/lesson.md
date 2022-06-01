@@ -33,7 +33,7 @@ PosgtreSQL
   }
 
   try {
-    const { rows: [ band ] } = await client.query(`
+    const { rows: [ trainer ] } = await client.query(`
       UPDATE trainers
       SET ${ setString }
       WHERE id=${ id }
