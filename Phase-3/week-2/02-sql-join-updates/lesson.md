@@ -18,6 +18,9 @@ PosgtreSQL
 - Many to Many 
     - Join Table 
 
+## Foreign Key
+A column that is a reference to another table. Used to join
+
 - UPDATE in sql 
 
 ```js 
@@ -33,7 +36,7 @@ PosgtreSQL
   }
 
   try {
-    const { rows: [ band ] } = await client.query(`
+    const { rows: [ trainer ] } = await client.query(`
       UPDATE trainers
       SET ${ setString }
       WHERE id=${ id }
