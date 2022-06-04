@@ -1,4 +1,5 @@
-const { db } = require("../02-sql-join-updates/db");
+const { Client } = require("pg");
+const db = new Client("postgres://localhost:5432/demo");
 
 const dropTables = async () =>
   db.query(`
@@ -70,8 +71,8 @@ const seedGyms = async () => {
 
 const seedGymBadges = async () => {
   const { rows } = await db.query(`
-      INSERT into gym_badges("gymId", "trainerId")
-      VALUES ($1, $2)
+      INSERT into gym_badges("gymId", name, "trainerId")
+      VALUES ($1, 'bolder badge',$2)
     `, [1, 1]);
   return rows;
 };
