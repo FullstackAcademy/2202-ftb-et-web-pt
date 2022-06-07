@@ -1,0 +1,50 @@
+const { Client } = require("pg"); // imports the pg module
+
+//set up the PG client
+const client = new Client("postgres://localhost:5432/demo");
+
+// fetch pokemon
+const fetchAllPokemon = async () => {
+  const { rows } = client.query(`
+    SELECT name, type
+    FROM pokemon;`);
+  return rows;
+};
+
+const fetchPokemonById = async (id) => {
+  const { rows } = client.query(`
+      SELECT name, type
+      FROM pokemon
+      where id = ${id};`);
+  return rows;
+};
+
+// create pokemon
+const createPokemon = async ({ name, type }) => {
+  const { rows } = client.query(
+    `
+        INSERT into pokemon(name, type)
+         VALUES ($1, $2)
+         RETURNING *;
+        `,
+    [name, type]
+  );
+  return rows;
+};
+
+// login
+const getUserByUsername = async (username) => {
+  const { rows } = client.query(
+    `SELECT *
+      FROM users
+      where username=${username};`
+  );
+  return rows;
+};
+
+module.exports = {
+    getUserByUsername,
+    createPokemon,
+    fetchAllPokemon,
+    fetchPokemonById
+}
