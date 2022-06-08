@@ -41,9 +41,8 @@ apiRouter.use(async (req, res, next) => {
   }
 });
 
-
-
-
+// api/trainers
+apiRouter.use("/trainers", require("./trainers"))
 // api/pokemon OR api/users
 apiRouter.use("/pokemon", require("./pokemon"));
 apiRouter.use("/users", require("./users"));
