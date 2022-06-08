@@ -5,23 +5,23 @@ const { JWT_SECRET } = process.env;
 
 // Auth the User, create a user object on req
 apiRouter.use(async (req, res, next) => {
-  const prefix = "Bearer ";
   const auth = req.header("Authorization");
 
 // Skip if req doesn't have an "Auth" in headers
   if (!auth) {
     // nothing to see here
     next();
-  } else if (auth.startsWith(prefix)) {
+  } else if (auth.startsWith("Bearer ")) {
     //  If this is a Bearer token, grab just the token part
-    const token = auth.slice(prefix.length);
+    const token = auth.slice("Bearer ".length);
 
     try {
     //  Break down the JWT to get the user info
-      const { id } = jwt.verify(token, JWT_SECRET);
+      const { id, username } = jwt.verify(token, JWT_SECRET);
 // If that worked, add a user key to req and move along
       if (id) {
-        req.user = await getUserByUsername(id);
+        const userFromToken = await getUserByUsername(username);
+        req.user = userFromToken
         next();
       } else {
 // ELSE => Throw an Error
@@ -36,11 +36,15 @@ apiRouter.use(async (req, res, next) => {
   } else {
     next({
       name: "AuthorizationHeaderError",
-      message: `Authorization token must start with ${prefix}`,
+      message: `Authorization token must start with ${"Bearer "}`,
     });
   }
 });
 
+
+
+
+// api/pokemon OR api/users
 apiRouter.use("/pokemon", require("./pokemon"));
 apiRouter.use("/users", require("./users"));
 

@@ -4,14 +4,18 @@ const jwt = require('jsonwebtoken');
 const { JWT_SECRET } = process.env;
 
 router.post('/login', async (req, res, next) => {
+
     const {username, pwd} = req.body;
     const user = await getUserByUsername(username);
     
-    if (user && user.password == password) {
+    // if user is not false, there is a user at username
+    // and the password matches my pwd
+    if (user && user.password == pwd) {
+
         const token = jwt.sign({ 
           id: user.id, 
           username
-        }, process.env.JWT_SECRET, {
+        }, JWT_SECRET, {
           expiresIn: '1w'
         });
   

@@ -2,6 +2,8 @@ const pokemonRouter = require("express").Router();
 const { fetchPokemonById, fetchAllPokemon, createPokemon } = require("../db");
 const {requireUser} = require('./utils')
 
+
+// api/pokemon/1
 pokemonRouter.get("/:pokemonId", async (req, res, next) => {
    const {pokemonId} = req.params;
    const pokemon = await fetchPokemonById(pokemonId)
@@ -13,6 +15,7 @@ pokemonRouter.get("/", async (req, res, next) => {
     res.json(pokemon);
 });
 
+//POST api/pokemon 
 pokemonRouter.post("/", requireUser, async (req, res, next) => {
     const {name, type} = req.body;
     const response = await createPokemon({name, pokemon})
