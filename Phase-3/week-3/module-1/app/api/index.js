@@ -4,12 +4,16 @@ const { getUserByUsername } = require("../db");
 const { JWT_SECRET } = process.env;
 
 // Auth the User, create a user object on req
+
+// headers : Authorization token ===> req.user = {username, id}
+// req.user ==> undefined 
 apiRouter.use(async (req, res, next) => {
   const auth = req.header("Authorization");
-
+  console.log(auth)
 // Skip if req doesn't have an "Auth" in headers
   if (!auth) {
     // nothing to see here
+
     next();
   } else if (auth.startsWith("Bearer ")) {
     //  If this is a Bearer token, grab just the token part

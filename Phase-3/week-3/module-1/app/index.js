@@ -3,6 +3,7 @@
 const express = require('express');
 const apiRouter = require('./api');
 const app = express(); 
+const {client} = require('./db')
 
 // GET SECRET from Env variables
 /* 
@@ -30,15 +31,17 @@ const app = express();
 
 
 require('dotenv').config()
-console.log("SECRET IS", process.env.JWT_SECRET)
+console.log("SECRET IS", process.env)
 
 app.use(express.json());
+
+client.connect();
 
 app.use('/api', require('./api'))    
 
 app.use((error, req, res, next) => {
-    console.log("there was an error")
-    res.send("An error occured")
+    console.log("there was an error", error.name, error.message)
+    res.send(`${error.name}, An error occurred here, coding to indicate to front end what page we should redirect to`)
 })
 
 app.listen(3001, () => {

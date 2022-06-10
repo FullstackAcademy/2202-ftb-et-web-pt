@@ -1,3 +1,5 @@
+const pokemonRouter = require("./pokemon");
+
 function requireUser(req, res, next) {
     if (!req.user) {
       next({
@@ -9,6 +11,26 @@ function requireUser(req, res, next) {
     next();
   }
   
+
+  function requireThatItsBrendan(req, res, next) {
+      console.log("The User is ", req.user)
+      if (!req.user || req.username != "Brendan"){
+        next({
+          message: "You have to be brendan to do that"
+        })
+      }
+      next()
+  }
+
+  function noReason(req, res, next) {
+      console.log("For no reason")
+      //  is the user the author of this post?? No? send an error 
+      next()
+  }
+
+
   module.exports = {
-    requireUser
+    requireUser,
+    requireThatItsBrendan,
+    noReason
   }

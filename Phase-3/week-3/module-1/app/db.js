@@ -44,11 +44,12 @@ const createPokemon = async ({ name, type }) => {
 
 // login
 const getUserByUsername = async (username) => {
-  const { rows } = client.query(
+  console.log(username)
+  const { rows } = await client.query(
     `SELECT *
-      FROM users
-      where username=${username};`
+      FROM users;`
   );
+  console.log(rows)
   return rows;
 };
 
@@ -57,5 +58,6 @@ module.exports = {
     createPokemon,
     fetchAllPokemon,
     fetchPokemonById,
-    fetchAllTrainers
+    fetchAllTrainers,
+    client
 }
