@@ -10,6 +10,7 @@ const SALT = 10
 
 const createUser = async (username, password) => {
   const hashedPassword = await bcrypt.hash(password, SALT);
+  console.log(username, password)
   console.log(hashedPassword)
   try {
     const {
@@ -33,6 +34,7 @@ const getUser = async (username, password) => {
     if (!user) return;
     const hashedPassword = user.password;
     const passwordsMatch = await bcrypt.compare(password, hashedPassword);
+    console.log("The Passwords", passwordsMatch)
     if (!passwordsMatch) return;
     delete user.password;
     return user;
@@ -70,7 +72,8 @@ async function run(){
     await createTables(client)
     console.log("Tables Done")
     await createUser("bb", "test")
-    console.log("User Done")
+    const user = await getUser("bb", "test")
+    console.log("User => ", user)
     client.end();
 }
 
