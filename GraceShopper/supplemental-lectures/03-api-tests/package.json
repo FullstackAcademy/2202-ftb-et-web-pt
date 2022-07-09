@@ -1,0 +1,36 @@
+{
+  "name": "testing-demo-databases",
+  "version": "1.0.0",
+  "description": "demo for testing js, node, express, and react",
+  "main": "index.js",
+  "scripts": {
+    "server:dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll --runInBand"
+  },
+  "author": "Preston Wallace",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

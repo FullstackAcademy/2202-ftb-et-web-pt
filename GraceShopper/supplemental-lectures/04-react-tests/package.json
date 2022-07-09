@@ -1,0 +1,48 @@
+{
+  "name": "testing-demo-databases",
+  "version": "1.0.0",
+  "description": "demo for testing js, node, express, and react",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run client:build",
+    "client:dev": "react-scripts start",
+    "client:build": "react-scripts build",
+    "server:dev": "nodemon index.js",
+    "db:build": "node ./db/init_db",
+    "start": "node index.js",
+    "seed:dev": "nodemon ./db/init_db.js",
+    "seed": "node ./db/init_db.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll --runInBand"
+  },
+  "author": "Fullstack Academy - Preston Wallace",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

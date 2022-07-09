@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed:dev": "nodemon ./db/seed.js",
+    "seed": "node ./db/seed.js",
+    "start:dev": "nodemon ./routines-demo.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "jest": "^26.5.2",
+    "pg": "^8.4.0"
+  }
+}

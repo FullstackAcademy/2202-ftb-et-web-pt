@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products entire component matches the snapshot 1`] = `
+<div>
+  <h2>
+    Products
+  </h2>
+  <div>
+    <h1>
+      diamond saw
+    </h1>
+  </div>
+  <div>
+    <h1>
+      tool belt
+    </h1>
+  </div>
+  <div>
+    <h1>
+      hammer
+    </h1>
+  </div>
+</div>
+`;

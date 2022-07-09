@@ -1,0 +1,15 @@
+{
+  "name": "testing-demo",
+  "version": "1.0.0",
+  "description": "demo for testing js, node, express, and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Preston Wallace",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  }
+}

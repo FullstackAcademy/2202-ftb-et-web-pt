@@ -1,0 +1,19 @@
+{
+  "name": "tdd-node",
+  "version": "1.0.0",
+  "description": "A collection of tests written with jest. Testing vanilla JS, Database queries, API Endpoints, and React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallacepreston/tdd-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallacepreston/tdd-node/issues"
+  }
+}
