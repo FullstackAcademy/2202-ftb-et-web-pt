@@ -2,7 +2,7 @@
 # 🛍️ Grace Shopper
 ## Project
 - ![FSA](/logo.png) [🖼️ Slides: *Grace Shopper*](Grace-Shopper.pdf)
-- ![FSA](/logo.png) [🚗 IMPORTANT - Milestones](milestones.md)
+- ![FSA](/logo.png) [🚗 IMPORTANT - Milestones](Milestones.md)
 - ![FSA](/logo.png) [🔬 Workshop: _Final Project - Grace Shopper_](https://learn.fullstackacademy.com/workshop/5ece807ae423f6000461d41e/landing)
 - ![FSA](/logo.png) [🤝 Teamwork Processes](teamwork-processes)
 
