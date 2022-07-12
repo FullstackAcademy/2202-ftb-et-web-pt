@@ -7,20 +7,20 @@
 - ![FSA](/logo.png) [🤝 Teamwork Processes](teamwork-processes)
 
 ## 🤝 Teams
-### Group 1- Hannah          ### Group 2-Michell
+### Group 1- Hannah         Group 2-Michell
 Keith Lindsey               Zachary Power
 Hunter Lindsay              Phillip Hess
 Jonathan Mitchell           Baxter Penfield
 Riley Meskill               MaryRuth Schrotenboer
 Austin Lawrence
 
-### Group 3- Frank	        ### Group 4-Jenn
+### Group 3- Frank	        Group 4-Jenn
 Annalise Gaston	            Ruben Lazaro
 Maleiyah Branch-Davis	      Anthony Garza
 Jeremy mitchell	            Tim Swiatowiec
 Kiara Bates	                Cristian Posadas
 
-### Group 5- Brendan        ### Group 6-Hannah            ### Group 7-Michell
+### Group 5- Brendan        Group 6-Hannah                Group 7-Michell
 Kacey Ellis	                Chase Harris	                Bardell Wilson
 Jeffrey Hudgins	            Alex Martinez	                Miles Clark
 Austin Kyles	              Noel Moreno	                  Jordan Steger
