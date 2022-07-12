@@ -7,25 +7,48 @@
 - ![FSA](/logo.png) [🤝 Teamwork Processes](teamwork-processes)
 
 ## 🤝 Teams
-### Group 1- Hannah         Group 2-Michell
-Keith Lindsey               Zachary Power
-Hunter Lindsay              Phillip Hess
-Jonathan Mitchell           Baxter Penfield
-Riley Meskill               MaryRuth Schrotenboer
+### Group 1- Hannah         
+Keith Lindsey
+Hunter Lindsay
+Jonathan Mitchell
+Riley Meskill
 Austin Lawrence
 
-### Group 3- Frank	        Group 4-Jenn
-Annalise Gaston	            Ruben Lazaro
-Maleiyah Branch-Davis	      Anthony Garza
-Jeremy mitchell	            Tim Swiatowiec
-Kiara Bates	                Cristian Posadas
+### Group 2-Michell
+Zachary Power
+Phillip Hess
+Baxter Penfield
+MaryRuth Schrotenboer
 
-### Group 5- Brendan        Group 6-Hannah                Group 7-Michell
-Kacey Ellis	                Chase Harris	                Bardell Wilson
-Jeffrey Hudgins	            Alex Martinez	                Miles Clark
-Austin Kyles	              Noel Moreno	                  Jordan Steger
-Minsung Kim	                Jacqueline Floyd	            David Stein
+### Group 3- Frank
+Annalise Gaston
+Maleiyah Branch-Davis
+Jeremy mitchell
+Kiara Bates	       
 
+### Group 4- Jenn 
+Ruben Lazaro
+Anthony Garza
+Tim Swiatowiec
+Cristian Posadas
+
+### Group 5-Brendan    
+Kacey Ellis
+Jeffrey Hudgins
+Austin Kyles
+Minsung Kim
+
+### Group 6-Hannah
+Chase Harris
+Alex Martinez
+Noel Moreno
+Jacqueline Floyd
+
+### Group 7-Michell
+Bardell Wilson
+Miles Clark
+Jordan Steger
+David Stein
 
 ## 📋 To Do - Day 1
   - Briefly Scan the [Workshop](https://learn.fullstackacademy.com/workshop/5ece807ae423f6000461d41e/landing), and most importantly: [the Requirements](https://learn.fullstackacademy.com/workshop/5ece807ae423f6000461d41e/content/5ece826fe423f6000461d4d1/text).
