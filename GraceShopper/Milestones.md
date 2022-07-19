@@ -12,7 +12,7 @@ If a user is authorized, show the component.  If the user is not authorized, eit
 # Milestones, in Vertical Slices 🔪
 ## _BASIC Database Models:_ `users`, `products`, `orders`, `order_products`, admin functionality
 
-# Review 1: Start of Day 2 - Wednesday 10/20 - 🪑 Table Definitions, 🛍️ Products vertical slice
+# Review 1: Start of Day 2 - Thur 07/14 - 🪑 Table Definitions, 🛍️ Products vertical slice
 
 <details>
 
@@ -81,7 +81,7 @@ Congrats! You have completed your first vertical slice! Make sure to `commit -m 
 
 </details>
 
-# Review 2: Start of Week 2 - Monday 10/25 - 🧑 Users, 🛒 Orders 
+# Review 2: Start of Week 2 - Tues 7/19  - 🧑 Users, 🛒 Orders 
 
 <details>
 
@@ -164,7 +164,7 @@ Nice! You have completed another vertical slice! Make sure to `commit -m "feat(u
 
 </details>
 
-# Review 3: Start of Week 3 - Monday 11/01 - Order_Products, 🛒 Checkout, 💳 Stripe Integration
+# Review 3: Start of Week 3 - Tues 7/26 - Order_Products, 🛒 Checkout, 💳 Stripe Integration
 
 <details>
 
@@ -248,7 +248,7 @@ Nice! You have completed another vertical slice! Make sure to `commit -m "feat(u
 
 </details>
 
-# Review 4: Start of Week 4 - Monday 11/08 - 💼 Admin, ⭐ Reviews
+# Review 4: Start of Week 4 - Tues 8/2 - 💼 Admin, ⭐ Reviews
 
 <details>
 
@@ -332,7 +332,7 @@ Only admins can update a user
 
 </details>
 
-# Project DUE: End of Week 4 - Friday 11/12
+# Project DUE: End of Week 4 - Friday 8/5
 
 <details>
 
@@ -344,15 +344,15 @@ Only admins can update a user
 
 
 ## Due Dates/Schedule
-### - Sat 11/13 - Presentation Prep & Recording
+### - Sat 08/06 - Presentation Prep & Recording
 
-### - Mon 11/15 - Presentation Prep & Recording (day 2)
+### - Tues 08/09 - Presentation Prep & Recording (day 2)
 
-### - Tue 11/16 Midnight - Presentation Due, uploaded to YouTube (send instructor link to YouTube)
+### - Tue 08/09 Midnight - Presentation Due, uploaded to YouTube (send instructor link to YouTube)
 
-### - Wed 11/17 Mock Presentations / Retrospective / Last Minute Edits
+### - Wed 08/10 Mock Presentations / Retrospective / Last Minute Edits
 
-### - Thu 11/18 midnight - Presentation Due IN the drive folder 
+### - Thu 08/11 midnight - Presentation Due IN the drive folder 
 
-### - Sat 11/20 - DEMO DAY & Graduation
+### - Sat 08/13 - DEMO DAY & Graduation
 - 12pm-1pm - Graduation/Demo Day/Video Presentations
